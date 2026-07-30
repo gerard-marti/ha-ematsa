@@ -1,0 +1,22 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Set up Ematsa",
+        "description": "Enter your Ematsa virtual office credentials.",
+        "data": {
+          "username": "Email (Username)",
+          "password": "Password",
+          "contract": "Contract Number"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Failed to connect, please check your details.",
+      "invalid_auth": "Invalid authentication."
+    },
+    "abort": {
+      "already_configured": "This contract is already configured."
+    }
+  }
+}

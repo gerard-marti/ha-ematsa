@@ -1,0 +1,10 @@
+{
+  "domain": "ematsa",
+  "name": "Ematsa Aigua",
+  "codeowners": ["@gerard-marti"],
+  "config_flow": true,
+  "dependencies": [],
+  "iot_class": "cloud_polling",
+  "version": "1.0.0",
+  "requirements": ["aiohttp", "beautifulsoup4"]
+}

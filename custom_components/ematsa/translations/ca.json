@@ -1,0 +1,22 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Configurar Ematsa",
+        "description": "Introdueix les teves credencials de l'oficina virtual d'Ematsa.",
+        "data": {
+          "username": "Correu electrònic (Usuari)",
+          "password": "Contrasenya",
+          "contract": "Número de Contracte"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Error en connectar, revisa les teves dades.",
+      "invalid_auth": "Autenticació no vàlida."
+    },
+    "abort": {
+      "already_configured": "Aquest contracte ja està configurat."
+    }
+  }
+}
