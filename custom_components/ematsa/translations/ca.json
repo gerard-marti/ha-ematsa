@@ -2,21 +2,27 @@
   "config": {
     "step": {
       "user": {
-        "title": "Configurar Ematsa",
-        "description": "Introdueix les teves credencials de l'oficina virtual d'Ematsa.",
+        "title": "Pas 1: Autenticació",
+        "description": "Introdueix les credencials del teu compte d'Ematsa.",
         "data": {
-          "username": "Correu electrònic (Usuari)",
-          "password": "Contrasenya",
+          "username": "Correu electrònic",
+          "password": "Contrasenya"
+        }
+      },
+      "contract": {
+        "title": "Pas 2: Seleccionar Contracte",
+        "description": "Selecciona el contracte que vols monitoritzar.",
+        "data": {
           "contract": "Número de Contracte"
         }
       }
     },
     "error": {
-      "cannot_connect": "Error en connectar, revisa les teves dades.",
-      "invalid_auth": "Autenticació no vàlida."
+      "invalid_auth": "Usuari o contrasenya incorrectes.",
+      "no_contracts_found": "No s'han trobat contractes associats a aquest compte."
     },
     "abort": {
-      "already_configured": "Aquest contracte ja està configurat."
+      "already_configured": "Aquest contracte ja està configurat a Home Assistant."
     }
   }
 }
