@@ -63,9 +63,9 @@ class EmatsaConfigFlow(config_entries.ConfigFlow, domain=DOMAIN):
                 },
             )
 
-        # Crear el diccionario para el select desplegable
+        # Crear el diccionario para el select desplegable (marcando el primero por defecto)
         contracts_schema = vol.Schema({
-            vol.Required(CONF_CONTRACT): vol.In(self._contracts),
+            vol.Required(CONF_CONTRACT, default=self._contracts[0]): vol.In(self._contracts),
         })
 
         return self.async_show_form(
